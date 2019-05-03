@@ -1,6 +1,8 @@
-# React-Bingmaps
+# React-Bingmaps-Plus
 ## Introduction
-React-Bingmaps is a react.js version of [Bing Maps V8 Web Control](https://msdn.microsoft.com/en-us/library/mt712542.aspx)
+React-Bingmaps-Plus is a react.js version of [Bing Maps V8 Web Control](https://msdn.microsoft.com/en-us/library/mt712542.aspx). It is based off of the project React-Bingmaps found here: https://github.com/iniamudhan/react-bingmaps.
+
+This repository was created to add clustering support to React-Bingmaps. The biggest change is that now when you create pushpins or pushpins with infoboxes for the map, they will be added to a clustering layer instead of the map entities list.
 
 The main purpose of this version is to help you to write Bingmaps in React applications without any pain. Main principles of React-Bingmaps are:
 1. **Simply** deploy with React components
@@ -94,7 +96,14 @@ zoom = {5}
 disableStreetside={true}
 ```
 
+#### clusterClickCallback : function
+This is the callback function for when a cluster of pushpins is clicked. Currently only supported on infoboxesWithPushPins
+```jsx
+clusterClickCallback={this.callBackFunction}
+```
+
 #### pushPins : ArrayOf(objects)
+NOTE: This prop has built-in clustering support
 ```jsx
 pushPins = {
             [
@@ -126,6 +135,7 @@ infoboxes = {
 Find more **option** values - [Infobox](https://msdn.microsoft.com/en-us/library/mt750270.aspx)  
 addHandler types - ["click", "mouseenter", "mouseleave"]
 #### infoboxesWithPushPins : ArrayOf(objects)
+NOTE: This prop has built in clustering support
 ```jsx
 infoboxesWithPushPins = {[
             {
@@ -208,19 +218,6 @@ boundary = {
             }
 ```
 Find more **option** values - [Get Boundary Options](https://msdn.microsoft.com/en-us/library/mt712819.aspx)
-
-
-
-## Donation
-If you think that any information you obtained here is worth of some money and are willing to pay for it, feel free to send any amount through paypal.
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVCBMXBZ36B5S)
-
-## Contribution
-
-We would love to hear what you think we should build. Please create an issue to write your usage or ideas.
-
-We are looking for like-minded people who share the same idea about React-Bingmaps. The goal of this project is create a more flexible Bingmaps library for the  React community.
 
 ## License
 
