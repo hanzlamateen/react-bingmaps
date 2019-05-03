@@ -1,5 +1,5 @@
 {
-  "name": "react-bingmaps",
+  "name": "react-bingmaps-plus",
   "description": "Bingmaps in React.js. React.js component for Bingmaps.",
   "version": "3.6.1",
   "private": false,
@@ -14,7 +14,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iniamudhan/react-bingmaps.git"
+    "url": "git+https://github.com/iniamudhan/react-bingmaps.git"
   },
   "bugs": {
     "url": "https://github.com/iniamudhan/react-bingmaps/issues"
@@ -116,5 +116,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  }
 }
