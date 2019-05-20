@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\lib",
+    "\\lib\\components",
+    "\\lib\\components\\ReactBingmaps"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\lib\\components\\ReactBingmaps\\ReactBingmaps.js",
   "PreviewInSolutionExplorer": false
 }
