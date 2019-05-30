@@ -4,6 +4,8 @@ React-Bingmaps-Plus is a react.js version of [Bing Maps V8 Web Control](https://
 
 This repository was created to add clustering support to React-Bingmaps. The biggest change is that now when you create pushpins or pushpins with infoboxes for the map, they will be added to a clustering layer instead of the map entities list.
 
+**Please note that for the time being, the new clustering features are only available when using the InfoboxesWithPushpins**
+
 The main purpose of this version is to help you to write Bingmaps in React applications without any pain. Main principles of React-Bingmaps are:
 1. **Simply** deploy with React components
 1. **Lightweight**  depending on Bing Maps V8 Web Control
