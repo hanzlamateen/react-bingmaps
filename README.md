@@ -1,6 +1,6 @@
-# React-Bingmaps-Next
+# React-Bingmaps-vNext
 ## Introduction
-React-Bingmaps-Next is a react.js version of [Bing Maps V8 Web Control](https://msdn.microsoft.com/en-us/library/mt712542.aspx). It is based off of the project React-Bingmaps found here: https://github.com/iniamudhan/react-bingmaps.
+React-Bingmaps-vNext is a react.js version of [Bing Maps V8 Web Control](https://msdn.microsoft.com/en-us/library/mt712542.aspx). It is based off of the project React-Bingmaps found here: https://github.com/iniamudhan/react-bingmaps.
 
 This repository was created to add clustering support to React-Bingmaps. The biggest change is that now when you create pushpins or pushpins with infoboxes for the map, they will be added to a clustering layer instead of the map entities list.
 
@@ -34,7 +34,7 @@ NPM is the easiest and fastest way to get started using React-Bingmaps.
 
 ```sh
 # latest stable
-$ npm i react-bingmaps-next
+$ npm i react-bingmaps-vnext
 ```
 
 ### Import Module
@@ -225,4 +225,4 @@ Find more **option** values - [Get Boundary Options](https://msdn.microsoft.com/
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) react-bingmaps-next
+Copyright (c) react-bingmaps-vnext
